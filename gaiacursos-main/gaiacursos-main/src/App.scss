@@ -1,0 +1,91 @@
+:root {
+  --pinkish-grey: #c6c6c6;
+  --greyish-brown: #454545;
+  --ice-blue: #f9fcff;
+  --turquoise: #0bc29f;
+  --bright-sky-blue: #00b1ff;
+  --dark-blue-grey: #1f2a55;
+}
+
+body {
+  // background: rgb(12, 22, 51);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(12, 22, 51, 1) 1%,
+  //   rgba(0, 212, 255, 1) 15%,
+  //   rgba(0, 212, 255, 1) 28%,
+  //   rgba(12, 22, 51, 1) 40%
+  // );
+  background-color: #0c1633;
+  background-image: url("https://images.hdqwalls.com/wallpapers/abstract-blue-line-4k-xh.jpg");
+
+  height: 100% !important;
+  // background-color: '#4986fc';
+  background-repeat: no-repeat;
+  background-size: cover;
+  // height: 1050px;
+
+  @media (min-width: 768px) {
+    height: 720px;
+  }
+
+  @media (min-width: 992px) {
+    height: 520px;
+  }
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 560px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+button {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--dark-blue-grey);
+  height: 34px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+
+  &:focus,
+  &:hover {
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.campk12 {
+  position: absolute;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
